@@ -1,0 +1,34 @@
+.navbar {
+display: flex;
+justify-content: center;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:lightgray;
+}
+.search input{
+    width: 400px;
+}
+.search p {
+    margin: 0;
+}
+.Info{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+   justify-content:space-around;
+   column-gap: 5px;
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+    background-color:darkturquoise;
+}
